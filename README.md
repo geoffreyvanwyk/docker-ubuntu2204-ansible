@@ -1,6 +1,6 @@
 # Ubuntu 22.04 LTS (Jammy Jellyfish) Ansible Test Image
 
-[![CI](https://github.com/geoffreyvanwyk/docker-ubuntu2204-ansible/workflows/Build/badge.svg?branch=master&event=push)](https://github.com/geoffreyvanwyk/docker-ubuntu2204-ansible/actions?query=workflow%3ABuild) [![Docker pulls](https://img.shields.io/docker/pulls/geoffreyvanwyk/docker-ubuntu2204-ansible)](https://hub.docker.com/r/geoffreyvanwyk/docker-ubuntu2204-ansible/)
+[![Build](https://github.com/geoffreyvanwyk/docker-ubuntu2204-ansible/workflows/Build/badge.svg?branch=master&event=push)](https://github.com/geoffreyvanwyk/docker-ubuntu2204-ansible/actions?query=workflow%3ABuild) [![Docker pulls](https://img.shields.io/docker/pulls/geoffreyvanwyk/docker-ubuntu2204-ansible)](https://hub.docker.com/r/geoffreyvanwyk/docker-ubuntu2204-ansible/)
 
 > **FORK REASON:** To add a normal user with sudo privileges, because that is
 > the type of user as which I normally connect to servers with Ansible.
