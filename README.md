@@ -9,7 +9,7 @@ Ubuntu 22.04 LTS (Jammy Jellyfish) Docker container for Ansible playbook and rol
 
 ## Tags
 
-  - `latest`: Latest stable version of Ansible.
+- `latest`: Latest stable version of Ansible.
 
 The latest tag is a lightweight image for basic validation of Ansible playbooks.
 
