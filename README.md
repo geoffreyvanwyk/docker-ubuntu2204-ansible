@@ -1,9 +1,10 @@
 # Ubuntu 22.04 LTS (Jammy Jellyfish) Ansible Test Image
 
-[![Build](https://github.com/geoffreyvanwyk/docker-ubuntu2204-ansible/workflows/Build/badge.svg?branch=master&event=push)](https://github.com/geoffreyvanwyk/docker-ubuntu2204-ansible/actions?query=workflow%3ABuild) [![Docker pulls](https://img.shields.io/docker/pulls/geoffreyvanwyk/docker-ubuntu2204-ansible)](https://hub.docker.com/r/geoffreyvanwyk/docker-ubuntu2204-ansible/)
+> **FORK REASON:** This image was forked from [geerlingguy/docker-ubuntu2204-ansible](https://github.com/geerlingguy/docker-ubuntu2204-ansible),
+> to add a normal user with sudo privileges, because that is the type of user as
+which I normally connect to servers with Ansible.
 
-> **FORK REASON:** To add a normal user with sudo privileges, because that is
-> the type of user as which I normally connect to servers with Ansible.
+[![Build](https://github.com/geoffreyvanwyk/docker-ubuntu2204-ansible/workflows/Build/badge.svg?branch=master&event=push)](https://github.com/geoffreyvanwyk/docker-ubuntu2204-ansible/actions?query=workflow%3ABuild) [![Docker pulls](https://img.shields.io/docker/pulls/geoffreyvanwyk/docker-ubuntu2204-ansible)](https://hub.docker.com/r/geoffreyvanwyk/docker-ubuntu2204-ansible/)
 
 Ubuntu 22.04 LTS (Jammy Jellyfish) Docker container for Ansible playbook and role testing.
 
@@ -38,5 +39,5 @@ I use Docker to test my Ansible roles and playbooks on multiple OSes using CI to
 
 ## Author
 
-* Created in 2022 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
-* Forked in 2023 by [Geoffrey Bernardo van Wyk](https://geoffreyvanwyk.dev) in order to add sudo user.
+- Created in 2022 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
+- Forked in 2023 by [Geoffrey Bernardo van Wyk](https://geoffreyvanwyk.dev) in order to add sudo user.
